@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* Image Slide */
+* {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+    /* background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#img {
+	list-style: none;
+	float: left;
+	width: 80px;
+    background-image: unset;
+}
+
+h1 {
+	text-align: center;
+	background-color: red;
+}
+
+/*가로 : 260+40+2+   */
+#banner_wrap {
+	width: 260px;
+	padding: 10px 20px;
+	margin: 0 auto;
+	border: 1px solid #aaa;
+    background-image: unset;
+}
+
+#banner {
+	width: 640px;
+	height: 40px;
+    background-image: unset;
+}
+
+#frame {
+	width: 232px;
+	height: 54px;
+	overflow: hidden; 
+	position: relative;
+	margin: 10px auto;
+    background-image: unset;
+}
+
+p {
+	clear: both;
+	text-align: center;
+    background-image: unset;
+}
+/* Image Slide end */
+
+#list {
+    text-align: left;
+	margin-left: 300px;
+}
+
+/* video start */
+#video{
+	display: flex;
+	justify-content: center;
+}
+
+#video > #videos{
+	display: block;
+    margin: auto;
+	border: 5px solid darkblue;
+	height: 150px;
+	width: 200px;
+}
+/* video end */
+
+/* Buttons Start */
+.loginButton{
+	display: block;
+	width: 100px; height: 50px;
+	background-color: #ccc;
+	box-shadow : 3px 3px 3px black;
+	transition-duration: 0.3s;
+	border-radius : 20px;
+	margin-left: 1300px;
+	margin-bottom: 250px;
+}
+.loginButton:active{
+	box-shadow : none;
+}
+/* Buttons End */
