@@ -1,2 +1,13 @@
 @charset "utf-8";
 
+#wrap{
+    display: flex;
+	justify-content: center;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+img{
+    margin-left: 500px;
+}

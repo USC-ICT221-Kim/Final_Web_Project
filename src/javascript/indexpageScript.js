@@ -61,7 +61,13 @@ $(document).ready(function () {
 			localStorage.removeItem('userKey');
 			console.log('log out button clicked');
 		});
-
 	});
 
+	//로그인 버튼 클릭시 계정이 없다면
+	//회원가입을 해야 한다는 alert 추가
+	$('.loginButton').click(function (){
+		if(localStorage.getItem('userKey') === null){
+			alert("신규유저는 ID를 생성하세요");
+		}
+	});
 });
