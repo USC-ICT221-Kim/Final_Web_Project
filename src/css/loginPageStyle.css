@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+h1{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+
+}
+
+/* ID and Password Start */
+.main{
+    display:table;
+    width:200px;
+    height:200px;
+    margin-bottom:10px;
+	margin: 10px auto;
+    padding:10px;
+    border:1px solid #000;
+}
+/* ID and Password End */
+
+/* RemeberID and Create ID Start */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+	display: block;
+	width: 150px; height: 35px;
+	background-color: red;
+	box-shadow : 3px 3px 3px black;
+	transition-duration: 0.3s;
+	border-radius : 20px;
+	/* margin-left: 1300px;
+	margin-bottom: 50px; */
+}
+button:active{
+	box-shadow : none;
+}
+/* RemeberID and Create ID End */
+
+/* Yes and Back Button Start */
+
+.sideButton{
+    display: flex;
+	justify-content: center;
+    margin-top: 100px;
+}
+#BacktoIndex{
+    margin-right: 50px;
+}
+#doneCreateAccount{
+    margin-left: 50px;
+}
+
+a{
+    overflow: hidden;
+}
+
+/* Yes and Back Button Finish */
