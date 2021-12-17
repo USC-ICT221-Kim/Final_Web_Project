@@ -1,0 +1,22 @@
+  a:hover {
+    text-decoration: underline; /* 마우스 커서가 올라갔을 때 밑줄을 생성합니다*/
+  }
+
+header {
+    text-align: center;
+	background-color: red;
+    font-size: 50px;
+    font-family: cursive;
+  }
+
+footer {
+	background-color: red;
+    font-size: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}

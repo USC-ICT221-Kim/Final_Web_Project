@@ -50,10 +50,14 @@ $(document).ready(function () {
 			$(".loginButton").hide();
 			$(".userProfileButton").show();
 			$('.logoutButton').show();
+			$('.createAccountButton').hide();
+			$('.myVideos').show();
 		} else if ((localStorage.getItem('userKey') === null)) {
 			$(".userProfileButton").hide();
 			$(".loginButton").show();
 			$('.logoutButton').hide();
+			$('.createAccountButton').show();
+			$('.myVideos').hide();
 		}
 		//로그아웃시 locastorage에 있는 값을 clear()시켜 준다
 		$('.logoutButton').click(function () {
@@ -67,7 +71,19 @@ $(document).ready(function () {
 	//회원가입을 해야 한다는 alert 추가
 	$('.loginButton').click(function (){
 		if(localStorage.getItem('userKey') === null){
-			alert("신규유저는 ID를 생성하세요");
+			// alert("신규유저는 ID를 생성하세요");
+			// alert('▬▬ι═══════ﺤ');
 		}
+	});
+
+	//유저가 계정 생성시 locaStorage에 유저의 값을 추가 해준다
+	$('#joinButton').click(function(){
+		isNumber = localStorage.setItem('userKey', 1);
+		console.log('user value has added to localStorage');
+	});
+
+	//유저가 Join(계정 생성) 클릭후 완료 alert 출력
+	$('#joinButton').click(function(){
+		alert('ID 생성을 완료 하였습니다.');
 	});
 });

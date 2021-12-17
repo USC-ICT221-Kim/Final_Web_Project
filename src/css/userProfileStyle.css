@@ -11,3 +11,44 @@ h1{
 img{
     margin-left: 500px;
 }
+
+#buttonList{
+	display: flex;
+	justify-content: center;
+}
+button {
+	display: block;
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	box-shadow: 3px 3px 3px black;
+	transition-duration: 0.3s;
+	margin: 50px;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+table.type11 {
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: center;
+	line-height: 1.5;
+	margin: 20px 10px;
+	margin-left: 400px;
+  }
+  table.type11 th {
+	width: 155px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+	background: #3a0a15 ;
+  }
+  table.type11 td {
+	width: 155px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+  }

@@ -7,19 +7,47 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="../javascript/indexpageScript.js"></script>  
     <link href="../css/userProfileStyle.css" rel="stylesheet">
+    <link href="../css/headerAndFooterStyle.css" rel="stylesheet">
     <title>User Profile</title>
 </head>
 <body>
+  <header>Kim's Web</header>
     <div id="wrap">
-        <h1>USER PROFILE</h1>
         <img src="../images/profile.png" alt="My Image" style="width: 10%; height: auto;">
     </div>
-    <div>
+    <div id="buttonList">
         <button id='homeButton'><a href="indexPage.html">HOME</a></button>
         <button class="logoutButton" onClick="window.location.reload()">
             <a href="indexPage.html">Log out</a>
         </button>
         <button class="myVideos"><a href="myVideos.html">Videos</a></button>
     </div>
+    <table class="type11">
+        <thead>
+        <tr>
+          <th scope="cols">Video Title</th>
+          <th scope="cols">Upload Date</th>
+          <th scope="cols">Views</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>맥북15프로 언박싱</th>
+          <td>2021/12/02</th>
+          <td>380</th>
+        </tr>
+        <tr>
+          <td>프로그래머 Vlog</th>
+          <td>2021/12/10</th>
+          <td>50</th>
+        </tr>
+        <tr>
+          <td>JAVA의정석 5분 요약</th>
+          <td>2021/12/16</th>
+          <td>2000</th>
+        </tr>
+        </tbody>
+      </table>
+      <footer>Name: Donghyun Kim | Email: usccollege1202@gmail.com</footer>
 </body>
 </html>

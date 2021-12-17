@@ -1,5 +1,14 @@
 @charset "utf-8";
 
-h1{
-    text-align: center;
+#video {
+	display: flex;
+	justify-content: center;
+}
+#video>#videos {
+	display: block;
+	margin: 0;
+	border: 5px solid black;
+	height: 150px;
+	width: 200px;
+    margin-top: 200px;
 }
